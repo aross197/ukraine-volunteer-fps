@@ -1,0 +1,49 @@
+# Unreal Engine 5 .gitignore
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Intermediate and Build
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Compiled
+*.dll
+*.exe
+*.pdb
+*.lib
+*.exp
+
+# Local
+*.log
+*.csv
+*.tsv
+
+# Content that should usually stay local or be LFS
+# (adjust as needed once project exists)
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.VC.db
+*.opensdf
+*.sdf
+*.ipch
+*.aps
+
+# Packed
+*.pak
+
+# Crash reports
+CrashReportClient/
